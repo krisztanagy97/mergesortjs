@@ -1,9 +1,13 @@
+var b = 3;
+
  function mergeSort(a) {
    if (a.length < 2) {
      return a;
    } else {
      var mijloc = Math.trunc(a.length/2);
      console.log(mijloc);
+console.log(stanga);
+console.log(dreapta);
      var stanga = a.slice(0, mijloc);
      var dreapta = a.slice(mijloc, a.length);
    }
