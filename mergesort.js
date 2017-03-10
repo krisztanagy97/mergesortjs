@@ -26,4 +26,4 @@
    }
    return result;
  }
-console.log(mergeSort([2, 3, 1,5]));
+console.log(mergeSort([2, 3, 1,5, 10, 15, 8]));
